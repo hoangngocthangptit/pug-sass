@@ -1,0 +1,30 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        
+        each dat in data
+          if dat.id == id
+            h1= dat.project_name
+            p.lead.text-light #{dat.description}
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+
+        each dat in data
+          if dat.id == id
+            ul
+              each ting in dat.technologies
+                li= ting
+                
+   
+    
+    each dat in data
+      if dat.id == id
+        each ting, index in dat.image_urls
+          if index != 0
+            img.image(src='/public/'+ting)

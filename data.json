@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "trang 1",
+      "description": "Random quote generator",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "image_urls": ["images/task-one/main.jpg", "images/task-one/extra.jpg"]
+    },
+    {
+      "id": 2,
+      "project_name": "trang 2",
+      "description": "Pagination & Content Filter",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "image_urls": ["images/task-two/main.jpg", "images/task-two/extra.jpg"]
+    },
+    {
+      "id": 3,
+      "project_name": "trang 3",
+      "description": "Build an Interactive Form",
+      "technologies": ["Javascript", "HTML", "CSS"],
+
+      "image_urls": [
+        "images/task-three/main.jpg",
+        "images/task-three/extra.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "trang 4",
+      "description": "Tic-Tac-Toe",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "image_urls": ["images/task-four/main.jpg", "images/task-four/extra.jpg"]
+    },
+    {
+      "id": 5,
+      "project_name": "trang 5",
+      "description": "Use a Public API to Create an Employee Directory",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "image_urls": ["images/task-five/main.jpg", "images/task-five/extra.jpg"]
+    }
+  ]
+}
